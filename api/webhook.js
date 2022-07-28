@@ -28,7 +28,7 @@ export default async (request, response) => {
 
       // Create a message to send back
       // We can use Markdown inside this
-      const message = `✅ Thanks for your message: *"${text}"*\nHave a great ! 👋🏻`;
+      const message = `✅ Deploy Concluído: *"${text}"*\n ! 👋🏻`;
 
       // Send our new message back in Markdown and
       // wait for the request to finish
